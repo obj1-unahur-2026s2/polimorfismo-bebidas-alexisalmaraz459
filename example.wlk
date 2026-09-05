@@ -44,7 +44,7 @@ object terere{
 // metodos de consulta.
 
   method rendimientoQueOtorga(dosisTerere){
-    return 0.1 * dosisTerere
+    return (0.1 * dosisTerere).max(1)
   }
 
 
