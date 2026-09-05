@@ -12,7 +12,7 @@ method velocidad() {
 
 method peso() = peso
 
-
+method esFeliz () = self.velocidad() >= 7
 
 // metodos de indicacion
 
@@ -80,7 +80,7 @@ object cianuro {
 
   method rendimientoQueOtorga(dosisCianuro, unDeportista){
     return if(tito.peso() > 70) tito.peso() *0.01 + dosisCianuro else 0
-    
+
   }
 
 
