@@ -32,3 +32,4 @@ Cabe destacar que para lograrlo, las sustancias deben entender el mismo mensaje,
 
 
 También hay que diseñar qué datos son _atributos_ y cuáles _métodos de consulta_ de `tito`. El enunciado pide que `velocidad` **no** sea un atributo ya que se obtiene de un cálculo que involucra el rendimiento, inercia y peso de `tito`.
+--
